@@ -24,7 +24,8 @@ O objetivo deste desafio é criar pagina de login e cadastro que vai:
 
 ### Links
 
-[Live site](https://nathannieg.github.io/calculo-imc/)
+[Live site](https://fisiofaz.github.io/page.login/)
+[Live projeto](https://github.com/fisiofaz/page.login)
 
 ### Tecnologias
 
