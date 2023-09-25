@@ -1,7 +1,7 @@
 // Função para processar o cadastro (exemplo simples)
 function cadastrar() {
   const fullname = document.getElementById("fullname").value;
-  const email = document.getElementById("email").value;
+  const email = document.getElementById("email-input").value;
   const newPassword = document.getElementById("new-password").value;
   const address = document.getElementById("address").value;
   const phone = document.getElementById("phone").value;
