@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --ff: 'Roboto', sans-serif;
+
+  --bg: linear-gradient(#e66465, #9198e5);
+  --bg-card: #fff;
+  --bg-imput: #DCE2E9;
+  
+  --bg-button: #02799D;
+  --bg-button-hover: #0056b3;
+
+  --tt-heading: #da8585; 
+  --tt-label: #6e4646; 
+  --tt-input: #212529;
+  
+  --tt-button: #ffffff;
+
+  --bd-imput: rgba(73, 80, 87, 0.3);
+  --bd-card: rgba(86, 12, 224, 0.281);
+}
+
+body, input, button, label, p, a {
+  font-family: var(--ff) ;
+}
+
+body {  
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  padding: 4rem;
+  background-color: var(--bg-card);
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem var(--bd-card);
+}
+
+.container h1 {
+  margin-bottom: 2rem; 
+  text-align: center;
+  color: var(--tt-heading);
+
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--tt-label);
+
+  font-size: 1.5rem;
+}
+.container input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--bg-imput);
+  border-radius: .5rem;
+  font-size: 1.6rem;
+  color: var(--tt-input);
+}
+.container button {
+  width: 100%;
+  padding: 1.5rem;
+  background-color: var(--bg-button);
+  color: var(--tt-button);
+  border: none;
+  border-radius: .5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+.container button:hover {
+  background-color: var(--bg-button-hover);
+}
+
+.container p {
+  text-align: center;
+  margin-top: 2rem;  
+  font-size: 1.2rem;   
+}
+
+.container p a {
+  text-decoration: none;
+  color: var(--tt-heading);
+  font-weight: 700;
+  font-size: 1.5rem;   
+}
