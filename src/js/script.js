@@ -1,10 +1,10 @@
 // Função para verificar o login (apenas um exemplo simples)
 function verificarLogin() {
-  const username = document.getElementById("username").value;
+  const username = document.getElementById("fullname").value;
   const password = document.getElementById("password").value;
 
   // Verifique as credenciais aqui (por exemplo, comparando com valores fixos)
-  if (username === "usuario" && password === "senha") {
+  if (username === "fullname" && password === "senha") {
       alert("Login bem-sucedido!");
   } else {
       alert("Nome de usuário ou senha incorretos. Tente novamente.");
